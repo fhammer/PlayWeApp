@@ -25,4 +25,4 @@
 
 ### 项目地址：
 ---
-https://github.com/aidenzou/SmallApp
+https://github.com/fhammer/PlayWeApp
