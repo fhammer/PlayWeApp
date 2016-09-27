@@ -1,0 +1,12 @@
+<!--一个块级区域-->
+<view style="background: pink; height: 200px;"> block 
+
+</view>
+<!--一个行级区域-->
+<view style="display: inline-block; background: red;"> inline1 
+
+</view>
+<!--一个列级区域-->
+<view style="display: flux; backgrondd: blue;"> inline2
+
+ </view>

@@ -1,0 +1,7 @@
+<view class="container">
+<view  bindtap="skipToMain" style="align-items: center" animation="{{animationData}}">
+<!--<navigator url="../index/index" redirect hover-class="other-navigator-hover">-->
+       <text>跳过闪屏页</text>
+ <!--</navigator>-->
+</view>
+</view>

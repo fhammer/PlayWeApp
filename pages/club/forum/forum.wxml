@@ -1,0 +1,9 @@
+<!--forum.wxml-->
+<view class="container">
+    <block wx:for-items="{{items}}">
+        <view class="item" bindtap="bindViewTap">
+            <image src="{{item.recommend_pic}}" class="slide-image"/>
+            <text>{{item.subject}}</text>
+        </view>
+    </block>
+</view>

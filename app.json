@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/splash/splash",
+    "pages/index/index",
+    "pages/club/forum/forum",
+    "pages/club/actives/actives",
+    "pages/logs/logs",
+    "pages/demo/demo",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PlayChat",
+    "backgroundColor":"#fff",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#ff0000",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/icon_home_normal.png",
+      "selectedIconPath": "images/icon_home_selected.png",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/club/actives/actives",
+      "iconPath": "images/icon_forum_normal.png",
+      "selectedIconPath": "images/icon_forum_selected.png",
+      "text": "论坛"
+    }, {
+      "pagePath": "pages/club/forum/forum",
+      "iconPath": "images/icon_component.png",
+      "selectedIconPath": "images/icon_component_HL.png",
+      "text": "活动"
+    }, {
+      "pagePath": "pages/user/user",
+      "iconPath": "images/icon_API.png",
+      "selectedIconPath": "images/icon_API_HL.png",
+      "text": "我"
+    }]
+  },
+  "debug": true
+}

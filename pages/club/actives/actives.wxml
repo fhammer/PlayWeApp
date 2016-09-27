@@ -1,0 +1,38 @@
+<view class="container">
+    <view class="swiper_box">
+        <swiper class="swiper" indicator-dots="{{indicatorDots}}" vertical="{{vertical}}"
+                autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+            <block wx:for-items="{{images}}">
+                <swiper-item>
+                    <image src="{{item.pic}}" class="slide-image"/>
+                </swiper-item>
+            </block>
+        </swiper>
+    </view>
+
+    <view class="section index-nav">
+        <block wx:for-items="{{navs}}">
+            <view class="l-c-c" catchtap="go" data-type="{{item.text}}">
+                <image src="{{item.image}}" class="slide-image"/>
+                <text>{{item.text}}</text>
+            </view>
+        </block>
+    </view>
+
+    <view class="line_y"></view>
+
+    <block wx:for-items="{{items}}">
+        <view class="item">
+            <image src="{{item.recommend_pic}}" class="article-image"/>
+            <view class="article_item">
+                <text>{{item.subject}}</text>
+
+                <view class="article_item_info">
+                <text>{{item.user.nickname}}</text>
+                <text>{{item.forum.name}}</text>
+                <text>浏览{{item.reply_count}}次</text>
+                </view>
+            </view>
+        </view>
+    </block>
+</view>
